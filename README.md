@@ -15,7 +15,11 @@ On [Packagist](https://packagist.org/packages/data-values/data-values):
 
 ## Requirements
 
-* PHP 5.3 or later
+These PHP versions are supported:
+
+* PHP ~5.3
+* HHVM ~3.3
+* PHP 7.x
 
 ## Installation
 
@@ -28,11 +32,11 @@ the git repository and take care of loading yourself.
 To add this package as a local, per-project dependency to your project, simply add a
 dependency on `data-values/data-values` to your project's `composer.json` file.
 Here is a minimal example of a `composer.json` file that just defines a dependency on
-DataValues 1.0:
+DataValues 2.0:
 
     {
         "require": {
-            "data-values/data-values": "1.0.*"
+            "data-values/data-values": "~2.0"
         }
     }
 
@@ -59,7 +63,7 @@ Contributions where also made by [several other awesome people]
 
 ## Release notes
 
-### 2.0.0 (dev)
+### 2.0.0 (2015-04-26)
 
 * Dropped `Copyable` interface
 * Dropped deprecated constant `DataValues_VERSION`, use `DATAVALUES_VERSION` instead
