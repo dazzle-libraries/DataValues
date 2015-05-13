@@ -17,8 +17,8 @@ On [Packagist](https://packagist.org/packages/data-values/data-values):
 
 These PHP versions are supported:
 
-* PHP ~5.3
-* HHVM ~3.3
+* PHP 5.3 or later
+* HHVM 3.3 or later
 * PHP 7.x
 
 ## Installation
